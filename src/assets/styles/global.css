@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+  color: slateblue;
+  padding: 30 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 30px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  outline: none;
+  cursor: pointer;
+  margin-top: 8px;
+  text-decoration: none;
+  color: azure;
+  max-width: 140px;
+  background-color: slateblue;
+}
+.btn:hover {
+  background-color: red;
+}
